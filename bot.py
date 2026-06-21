@@ -3,7 +3,7 @@ import discord
 from discord.ext import commands
 from datetime import timedelta
 
-TOKEN = os.getenv("DISCORD_TOKEN)
+TOKEN = os.getenv("DISCORD_TOKEN")
 
 HONEYPOT_CHANNEL_ID = 1518086228744867900
 MOD_LOG_CHANNEL_ID = 1488836888382144552
