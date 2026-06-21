@@ -2,7 +2,7 @@ import discord
 from discord.ext import commands
 from datetime import timedelta
 
-TOKEN = "MTMzMDg0MDE4MTI5NjcyNjAzNg.GSLCFb.BNj3jCZEMxbx9x9Wj9O49jKwykH6JRy91Vv2ic"
+TOKEN = "bot token"
 
 HONEYPOT_CHANNEL_ID = 1518086228744867900
 MOD_LOG_CHANNEL_ID = 1488836888382144552
@@ -119,4 +119,4 @@ async def on_message(message):
     await bot.process_commands(message)
 
 
-bot.run("MTMzMDg0MDE4MTI5NjcyNjAzNg.GSLCFb.BNj3jCZEMxbx9x9Wj9O49jKwykH6JRy91Vv2ic")
+bot.run("bot toke")
